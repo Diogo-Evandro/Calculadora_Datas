@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculo de Datas</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="others">
+        <h2>Outras Calculadoras:</h2>
+        <button><a href="../calculadora/calculadora.html">CALC</a></button>
+        <button><a href="../conversor/conversor.html">CM</a></button>
+        <button><a href="../IMC/imc.html">IMC</a></button>
+      </div>
+      <div>
+        <h1>Calculo de Datas</h1>
+        <form id="date-form">
+          <label for="date1">Data Inicial:</label>
+          <input type="date" id="date1" name="date1" required />
+          <label for="date2">Data Final:</label>
+          <input type="date" id="date2" name="date2" required />
+          <button type="submit">Calcular Diferença</button>
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
